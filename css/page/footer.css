@@ -1,0 +1,130 @@
+.footer__header {
+    background: #e9fbf9;
+    margin-top: 140px;
+    padding-bottom: 70px;
+}
+
+.footer__title {
+    padding-top: 70px;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 44px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__title h1 {
+    width: 637px;
+    text-align: center;
+}
+
+.footer__buttons {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 45px;
+gap: 27px;
+}
+
+.withoneclick {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 18px;
+    color: #ff823b;
+    
+}
+
+.subscribe__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ff823b;
+    border-radius: 31px;
+    width: 203px;
+    height: 57px;
+    gap: 26px;
+}
+
+.subscribe {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    color: #fff;
+}
+
+.footer__bottom {
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+    justify-content: center;
+}
+
+.footer__logo-text {
+    font-size: 12px;
+    color: #ff823b;
+}
+
+.footer__links {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #124f48;
+    gap: 71px;
+}
+
+.footer__contacts {
+    justify-self: end;
+}
+
+.footer__links-item {
+    transition: var(--accent-transition);
+}
+
+.footer__links-item:hover {
+    font-weight: 700;
+    color: #ff823b;
+}
+
+.footer__bot {
+    background: #124f48;
+}
+
+.footer__bot-inner {
+    max-width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 16px 15px;
+}
+
+.footer__copyright {
+    color: #fff;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.socials li path {
+    fill: #e9fbf962;
+    transition: var(--accent-transition);
+}
+
+.socials li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials li:hover path {
+    fill: #fff;
+}
