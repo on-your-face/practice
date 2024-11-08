@@ -1,0 +1,231 @@
+.hero {
+    margin-top: 66px;
+}
+
+.hero__main {
+    background: #e9fbf9;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.hero__info {
+    margin: 70px 0 0 121px;
+}
+
+.buttonw {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #f2faf9;
+    background: #fff;
+    border-radius: 4px;
+    padding: 4px 22px;
+    font-size: 16px;
+    color: #ff6107;
+    width: 117px;
+    height: 38px;
+    line-height: 1.87;
+    transition: var(--accent-transition);
+}
+
+.buttonw:hover {
+    background: #f1f1f1;
+}
+
+.hero__info-title {
+    max-width: 570px;
+    font-family: "Poppins";
+    margin-top: 30px;
+    font-size: 64px;
+    line-height: 1.25;
+    color: #021d1a;
+}
+
+.hero__info-text {
+    margin-top: 31px;
+    font-size: 18px;
+    line-height: 1.67;
+    color: #464646;
+    max-width: 428px;
+}
+
+.hero__info-bottom {
+    display: flex;
+    align-items: center;
+    margin-top: 51px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    gap: 0 55px;
+    margin-bottom: 106px;
+}
+
+.hero__info-getstarted {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 31px;
+    background: #ff823b;
+    color: #fff;
+    width: 180px;
+    height: 57px;
+    transition: var(--accent-transition);
+}
+
+.hero__info-getstarted:hover {
+    background: #f77022;
+}
+
+.hero__info-demovideo {
+    display: flex;
+    align-items: center;
+    gap: 0 16px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    color: #ff823b;
+}
+
+.hero__info-play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    fill: #fff;
+    box-shadow: 0 0 24px 0 #d6e2e1;
+    width: 39px;
+    height: 39px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.hero__info-play::before {
+    content: '';
+    position: absolute;
+    border: 1px solid #ff5e00;
+    inset: 1px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: var(--accent-transition);
+}
+
+.hero__info-demovideo:hover .hero__info-play::before {
+    opacity: 1;
+}
+
+.hero__info-play svg {
+    margin-left: 6%;
+}
+
+.hero__img {
+    position: relative;
+    align-self: end;
+}
+.hero__img img {
+    width: 100%;
+}
+
+.hero__bar {
+    position: absolute;
+    bottom: -81px;
+    right: 313px;
+
+}
+
+.hero__bar-inner {
+    border-radius: 20px;
+    /* width: 314px;
+    height: 314px; */
+    box-shadow: 0 3px 84px 0 rgba(142, 199, 192, 0.3);
+    background: #ffffffc7;
+    padding: 45px 36px;
+}
+
+.hero__bar-zone {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+.hero__bar-square-1 {
+    border-radius: 14px;
+    width: 104px;
+    height: 104px;
+    background: #fff6d4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__bar-square-1-1 {
+    border-radius: 14px;
+    width: 74px;
+    height: 74px;
+    background: #ffc90c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__bar-square-2 {
+    border-radius: 14px;
+    width: 104px;
+    height: 104px;
+    background: #deffe5;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__bar-square-2-2 {
+    border-radius: 14px;
+    width: 74px;
+    height: 74px;
+    background: #198b39;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__bar-square-3 {
+    border-radius: 14px;
+    width: 104px;
+    height: 104px;
+    background: #dbeeff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__bar-square-3-3 {
+    border-radius: 14px;
+    width: 74px;
+    height: 74px;
+    background: #0085ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__bar-square-4 {
+    border-radius: 14px;
+    width: 104px;
+    height: 104px;
+    background: #ffefe5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__bar-square-4-4 {
+    border-radius: 14px;
+    width: 74px;
+    height: 74px;
+    background: #ff7527;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
